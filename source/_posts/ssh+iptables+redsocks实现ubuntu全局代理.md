@@ -1,5 +1,5 @@
 ---
-title: SSH+iptables+redsocks实现ubuntu全局代理
+title: ssh + iptables + redsocks实现ubuntu全局代理
 date: 2019-03-13 21:37:08
 categories: 
 - [linux]

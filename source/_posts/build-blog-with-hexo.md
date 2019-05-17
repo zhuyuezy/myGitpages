@@ -1,5 +1,5 @@
 ---
-title: GithubPages+hexo搭建博客
+title: githubpages + hexo搭建博客
 date: 2019-03-12 17:09:00
 categories: 
 - 其他
