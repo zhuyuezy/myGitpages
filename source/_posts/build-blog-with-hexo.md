@@ -7,7 +7,7 @@ tags:
 - hexo
 ---
 
-记录如何在OS X上搭建Hexo博客并部署到Githubpages。
+今天准备给一台12.1.2的iPhone越狱，爱思助手生成安装包一直失败，用Impactor装Chimera报81错误，搜索后发现是Impactor挂了。
 
 <!-- more -->
 
