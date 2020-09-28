@@ -13,6 +13,8 @@ tags:
 
 导致这个报错的原因是：该文件的编码方式为`ASCII text, with CRLF line terminators`，而不是utf-8。
 
+<!-- more -->
+
 解决方法多种：
 
 1、改用Python 2，因为Python 2默认以字节流的方式读取文件;

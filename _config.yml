@@ -5,9 +5,9 @@
 # Site
 title: 没名字的博客
 subtitle:
-description: 呜呜呜我一定好好学习
+description: 保持学习
 keywords:
-author: Zhu Yue
+author: zhuyue
 language: zh-Hans
 timezone:
 
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/zhuyuezy/zhuyuezy.github.io.git 
+  repo: https://github.com/zhuyuezy/zhuyuezy.github.io.git
   branch: master
 
 search:
@@ -87,3 +87,13 @@ search:
   field: post
   format: html
   limit: 10000
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+#RSS订阅
+plugin: hexo-generator-feed
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
